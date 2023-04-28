@@ -6,7 +6,9 @@ import Tweet from './components/Tweet.js';
 function App() {
   return (
     <div className="App">
-      <Tweet/>
+      <div style={{width:'25%'}}>
+        <Tweet/>
+      </div>
     </div>
   );
 }
